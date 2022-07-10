@@ -1,0 +1,34 @@
+@mixin telefono {
+    @media (max-width: $telefono) {
+        @content;
+    }
+}
+@mixin telefono370px {
+    @media (max-width: $telefono370) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+@mixin desktopmax {
+    @media (max-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin grid($columnas, $espaciado) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espaciado;
+
+}

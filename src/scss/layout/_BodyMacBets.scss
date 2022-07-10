@@ -1,0 +1,29 @@
+.BodyMACBets{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+    gap: 2rem;
+    padding: 0 5rem;
+    @include tablet{
+        grid-template-columns: repeat(auto-fill, minmax(26rem, 2fr));
+        gap: 1rem;
+    }
+    @include telefono{
+        grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    }
+}
+.Accordion{
+    .containerBet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.5rem;
+        .multipliedBet{
+            margin-top: 1rem;
+        }
+    }
+}
+.headboardContainerModalTitle{
+    text-align: center;
+    margin-top: 3rem;
+}

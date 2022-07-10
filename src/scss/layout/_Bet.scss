@@ -1,0 +1,31 @@
+
+.stateUnBet{
+    margin-right: 3rem;
+    p{
+        font-size: 1.3rem;
+        color: $colorUnBet;
+        text-transform: uppercase;
+    }
+}
+// .multipliedBet{
+//     cursor: pointer;
+//     p{
+//         padding: 1px 5px;
+//         font-size: 15px;
+//     }
+// }
+.inputMultiplied{
+    border: none;
+    padding: 1px 5px;
+    font-size: 15px;
+    background-color: $backgroundMultiplied;
+    color: $colorMultiplied;
+}
+.inputMultiplied:hover{
+    background-color: $hoverBackgroundMultiplied;
+    color: $hoverColorMultiplied;
+}	
+
+.listBets{
+    
+}
